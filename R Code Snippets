@@ -1,0 +1,12 @@
+#To find the class of an object - shows how object is stored in the memory
+class(df)
+
+#To find the type of the object - represents the internal type
+typeof(df)
+
+#To find the structure of the object/column - display the internal structure of an R object, alternate to summary
+str(df)
+
+#To produce result summaries of the results of an object - Descriptive Statistics 
+summary(df)
+
