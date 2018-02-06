@@ -10,4 +10,3 @@ str(df)
 #To produce result summaries of the results of an object - Descriptive Statistics 
 summary(df)
 
-#using HMISC package for descriptive statistics
