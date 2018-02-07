@@ -10,3 +10,43 @@ str(df)
 #To produce result summaries of the results of an object - Descriptive Statistics 
 summary(df)
 
+#import files
+#import flatfiles
+readr -  reads rectangular data (like csv, tsv, and fwf)
+
+# The easiest way to get readr is to install the whole tidyverse:
+install.packages("tidyverse")
+
+# Alternatively, install just readr:
+install.packages("readr")
+# Or the the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/readr")
+
+#import excel files
+readxl package  - reads excel files -
+
+#other type of files
+haven package - import SAS, STATA and SPSS data files
+RMySQL and RpostgreSQL package ,Access and manipulate  respective to database via DBI --- database related package
+rvest - webscraping
+
+# tidying your data after importing data 
+tidyr package - to tidy the data
+#install just tidyr:
+install.packages("tidyr")
+
+# Or the the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/tidyr")
+
+#stringr package for string manipulation
+#To get the current released version from CRAN:
+install.packages("stringr")
+To get the current development version from github:
+# install.packages("devtools")
+devtools::install_github("hadley/stringr")
+
+
+
+
