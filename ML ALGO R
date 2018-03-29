@@ -23,10 +23,10 @@ predicted= predict(logistic,x_test)
 
 DECISION TREE:
 
-library(e1071)
+library(rpart)
 x <- cbind(x_train,y_train)
-# Fitting model
-fit <-svm(y_train ~ ., data = x)
+# grow tree 
+fit <- rpart(y_train ~ ., data = x,method="class")
 summary(fit)
 #Predict Output 
 predicted= predict(fit,x_test)
