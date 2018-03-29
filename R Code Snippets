@@ -47,6 +47,14 @@ To get the current development version from github:
 # install.packages("devtools")
 devtools::install_github("hadley/stringr")
 
+#to change the colnames
+colnames(corpus_data)[colnames(corpus_data) == 'n1'] <- 'n'
+
+#to replace the values 
+df$cl[df$cl =="N"] <- NA
+df$s[is.na(df$os)] <- NA
+
+
 
 
 
