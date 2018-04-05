@@ -54,6 +54,10 @@ colnames(corpus_data)[colnames(corpus_data) == 'n1'] <- 'n'
 df$cl[df$cl =="N"] <- NA
 df$s[is.na(df$os)] <- NA
 
+#renaming the column name
+colnames(diab)[9] <- "diabetes"
+colnames(diab)[which(names(diab) == "diabetes")] <- "outcome"
+colnames(diab)[colnames(diab) == "outcome"] <- "diabetes"
 
 
 
